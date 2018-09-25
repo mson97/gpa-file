@@ -6,26 +6,25 @@ total_gpa = 0
 name = ''
 gpalist = []
 namelist = []
-contents = myfile.read()
-print(contents)
-mylist = contents.split('\n\n')
-print(mylist)
+contents = myfile.read() # returns all of file contents as string
+mylist = contents.split('\n\n') # splits contents at double blank lines, adds to mylist
 for i in range (0 , len(mylist)):
-    student = str(mylist[i])
-    print(student)
-    if '\n' == student:
+    student = str(mylist[i]) # looks at each student's name, classes, units, and grades
+    if '\n' == student: # if list is ['\n'] b/c of two blank lines at end
          break
-    studentlist = student.split('\n')
-    print(studentlist)
+    studentlist = student.split('\n') # splits student's data by line, adds to studentlist
+    if studentlist[0] == '': # if list is [''] b/c of no lines at end
+        break
     name = studentlist[0]
     total_units = 0
     total_gpa = 0
-    for i in range (1, len(studentlist)):
-        course = studentlist[i].split(' ')
-        print(course)
-        course_units = course[1]
+    for i in range (1, len(studentlist)): # starts look from 2nd line (not name)
+        course = studentlist[i].split(' ') # splits each line by spaces, adds to course
+        if course[0] == '': # if list is [''] b/c of one blank line
+            break
+        course_units = course[1] 
         letter_grade = course[-1]
-        if letter_grade[0] == 'A':
+        if letter_grade[0] == 'A': # start of number grade calculations
             number_grade = 4
             if len(letter_grade) == 2:
                 if letter_grade[1] == '-':
@@ -56,24 +55,16 @@ for i in range (0 , len(mylist)):
             if len(letter_grade) == 2:
                 if letter_grade[1] == '+':
                     number_grade += 0.3
-        print(name)
-        print(course_units)
-        print(letter_grade)
-        print(number_grade)
         total_units += float(course_units)
         gpa = float(course_units)*float(number_grade)
         total_gpa += gpa
-    print(total_units)
-    print(total_gpa)
     weighted_gpa = total_gpa/total_units
-    print("%-24s%.2f" % (name, weighted_gpa))
-    namelist.append(name)
-    gpalist.append(weighted_gpa)
-myfile.close()
-f = open('GPA_output.txt', 'w')
+    namelist.append(name) # adds name of student to namelist once done computing gpa
+    gpalist.append(weighted_gpa) # adds calculated gpa
+myfile.close() # no more reads from input file
+f = open('GPA_output.txt', 'w') # opens new file for writing
 for i in range (0, len(namelist)):
-    name = namelist[i]
-    gpa = gpalist[i]
-    f.write("%-24s%.2f\n" % (name, gpa))
-f.close()
-print(GPA_output.txt)                  
+    name = namelist[i] # goes through names
+    gpa = gpalist[i] # goes through calculated gpa's
+    f.write("%-26s%.2f\n" % (name, gpa)) # prints name and gpa with 26 spaces in between
+f.close() # closes new file, no more writing, flushes
