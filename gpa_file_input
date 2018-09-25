@@ -1,0 +1,79 @@
+myfile = open(input("Enter name of input file:\n"))
+course_units = 0
+letter_grade = ''
+total_units = 0
+total_gpa = 0
+name = ''
+gpalist = []
+namelist = []
+contents = myfile.read()
+print(contents)
+mylist = contents.split('\n\n')
+print(mylist)
+for i in range (0 , len(mylist)):
+    student = str(mylist[i])
+    print(student)
+    if '\n' == student:
+         break
+    studentlist = student.split('\n')
+    print(studentlist)
+    name = studentlist[0]
+    total_units = 0
+    total_gpa = 0
+    for i in range (1, len(studentlist)):
+        course = studentlist[i].split(' ')
+        print(course)
+        course_units = course[1]
+        letter_grade = course[-1]
+        if letter_grade[0] == 'A':
+            number_grade = 4
+            if len(letter_grade) == 2:
+                if letter_grade[1] == '-':
+                    number_grade -= 0.3
+        elif letter_grade[0] == 'B':
+            number_grade = 3
+            if len(letter_grade) == 2:
+                if letter_grade[1] == '-':
+                    number_grade -= 0.3
+                elif letter_grade[1] == '+':
+                    number_grade += 0.3
+        elif letter_grade[0] == 'C':
+            number_grade = 2
+            if len(letter_grade) == 2:
+                if letter_grade[1] == '-':
+                    number_grade -= 0.3
+                elif letter_grade[1] == '+':
+                    number_grade += 0.3
+        elif letter_grade[0] == 'D':
+            number_grade = 1
+            if len(letter_grade) == 2:
+                if letter_grade[1] == '-':
+                    number_grade -= 0.3
+                elif letter_grade [1] == '+':
+                    number_grade += 0.3
+        elif letter_grade[0] == 'F':
+            number_grade = 0
+            if len(letter_grade) == 2:
+                if letter_grade[1] == '+':
+                    number_grade += 0.3
+        print(name)
+        print(course_units)
+        print(letter_grade)
+        print(number_grade)
+        total_units += float(course_units)
+        gpa = float(course_units)*float(number_grade)
+        total_gpa += gpa
+    print(total_units)
+    print(total_gpa)
+    weighted_gpa = total_gpa/total_units
+    print("%-24s%.2f" % (name, weighted_gpa))
+    namelist.append(name)
+    gpalist.append(weighted_gpa)
+myfile.close()
+f = open('GPA_output.txt', 'w')
+for i in range (0, len(namelist)):
+    name = namelist[i]
+    gpa = gpalist[i]
+    f.write("%-24s%.2f\n" % (name, gpa))
+f.close()
+print(GPA_output.txt)                  
