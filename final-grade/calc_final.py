@@ -20,7 +20,7 @@ while n > 0:
 	n -= 1
 	counter += 1
 
-choice = 'c'
+choice = ''
 
 choice = raw_input("Would you like to calculate what you need on the final?\n(yes or no)\n")
 
