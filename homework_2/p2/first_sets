@@ -1,0 +1,23 @@
+First (program) = {'@'}
+First (block) = {'@'}
+First (declaration_list) = {'@'}
+First (statement) = {'!', '~', }
+
+
+First (multop) = {'*', '/'}
+First (addop) = {'+', '-'}
+First (factor) = {'(', '~', id, number}
+First (term) = {'(', '~', id, number}
+First (expr) = {'(', '~', id, number}
+First (guarded_command) = {'(', '~', id, number}
+First (if) = { '['}
+First (do) = {'<'}
+First (ref_id) = {'~', id}
+First (assignment) = {'~', id}
+First (print) = {'!'}
+First (statement) = {'~', id, '<', '!', '['}
+First (declaration) = {'@'}
+First (statement_list) = {'~', id, '<', '!', '['}
+First (declaration_list) = {'@'}
+First (block) = {'@'}
+First (program) = {'@'}

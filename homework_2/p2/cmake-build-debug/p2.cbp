@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="p2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p2">
+				<Option output="/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/p2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/Makefile&quot;  VERBOSE=1 p2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p2/fast">
+				<Option output="/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/p2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/Makefile&quot;  VERBOSE=1 p2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/minheeson/Documents/GitHub/homework_2/p2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/Makefile">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/Parser.class">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/Parser.java">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/Scan.class">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/Scan.java">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/TK.class">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/TK.java">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/Token.class">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/Token.java">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/e2j.class">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/e2j.java">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/first_sets">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/run">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/run1">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/runall">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t01.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t01.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t01.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t02.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t02.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t02.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t04.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t04.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t04.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t05.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t05.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t05.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t06.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t06.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t06.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t07.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t07.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t07.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t08.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t08.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t08.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t09.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t09.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t09.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t10.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t10.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t10.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t11.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t11.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t11.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t12.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t12.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t12.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t14.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t14.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t14.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t15.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t15.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t15.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t16.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t16.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t16.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t17.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t17.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t17.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t18.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t18.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t18.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t19.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t19.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t19.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t20.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t20.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t20.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t31.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t31.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t31.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t32.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t32.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t32.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t33.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t33.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t33.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t37.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t37.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t37.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t42.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t42.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t42.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t43.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t43.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t43.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t44.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t44.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t44.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t45.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t45.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t45.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t46.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t46.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t46.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t47.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t47.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t47.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t48.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t48.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t48.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t49.correct">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t49.e">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/t49.output">
+			<Option target="p2"/>
+		</Unit>
+		<Unit filename="/Users/minheeson/Documents/GitHub/homework_2/p2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
